@@ -1,10 +1,10 @@
-package CS5800HW3;
+package CS5800HW3.Bridge;
 
 public class Driver 
 {
     public static void main(String[] args) 
     {
-        // send image message via WhatsApp
+        // send image, text, and video messages via WhatsApp
         MessageApp whatsApp = new WhatsApp(new ImageMessage());
         whatsApp.sendMessage();
 

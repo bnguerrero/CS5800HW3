@@ -1,4 +1,4 @@
-package CS5800HW3;
+package CS5800HW3.Bridge;
 
 public class TelegramMessaging extends MessageApp 
 {

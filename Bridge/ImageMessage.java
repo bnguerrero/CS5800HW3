@@ -1,6 +1,6 @@
-package CS5800HW3;
+package CS5800HW3.Bridge;
 
-public class VideoMessage implements MessageType{
+public class ImageMessage implements MessageType{
 
     @Override
     public void sendMessage() 
