@@ -3,14 +3,17 @@ package CS5800HW3;
 /**
  * WhatsApp
  */
-public class WhatsApp implements MessageApp
+public class WhatsApp extends MessageApp
 {
-
-    @Override
-    public void sendMessage(MessageType messageType) 
+    public WhatsApp(MessageType messageType) 
     {
-        messageType.sendMessage();
+        super(messageType);
     }
 
-    
+    @Override
+    public void sendMessage() 
+    {
+        messageType.sendMessage();
+        System.out.println("via WhatsApp");
+    }
 }
