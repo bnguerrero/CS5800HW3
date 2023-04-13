@@ -14,6 +14,6 @@ public class WhatsApp extends MessageApp
     public void sendMessage() 
     {
         messageType.sendMessage();
-        System.out.println("via WhatsApp");
+        System.out.println("via WhatsApp\n");
     }
 }

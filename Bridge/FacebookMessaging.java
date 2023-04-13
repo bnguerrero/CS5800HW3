@@ -11,6 +11,6 @@ public class FacebookMessaging extends MessageApp
     public void sendMessage() 
     {
         messageType.sendMessage();
-        System.out.println("via Facebook Messaging");
+        System.out.println("via Facebook Messaging\n");
     }
 }

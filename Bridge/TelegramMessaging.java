@@ -10,7 +10,7 @@ public class TelegramMessaging extends MessageApp
     @Override
     public void sendMessage() {
         messageType.sendMessage();
-        System.out.println("via Telegram Messaging");
+        System.out.println("via Telegram Messaging\n");
     }
     
 }
