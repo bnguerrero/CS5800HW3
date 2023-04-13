@@ -11,6 +11,8 @@ public class Cheese extends FoodDecorator
 
     public double cost()
     {
+        System.out.println("extra cheese: $" + cost);
         return super.cost() + cost;
     }
+
 }

@@ -11,6 +11,7 @@ public class Tomatoes extends FoodDecorator
     
     public double cost()
     {
+        System.out.println("extra tomatoes: $" + cost);
         return super.cost() + cost;
     }
 }

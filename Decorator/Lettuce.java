@@ -11,6 +11,7 @@ public class Lettuce extends FoodDecorator
     
     public double cost()
     {
+        System.out.println("extra lettuce: $" + cost);
         return super.cost() + cost;
     }
 }

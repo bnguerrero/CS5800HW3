@@ -11,6 +11,7 @@ public class Meat extends FoodDecorator
     
     public double cost()
     {
+        System.out.println("extra meat: $" + cost);
         return super.cost() + cost;
     }
 }

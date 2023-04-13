@@ -11,6 +11,7 @@ public class Pickles extends FoodDecorator
     
     public double cost()
     {
+        System.out.println("extra pickles: $" + cost);
         return super.cost() + cost;
     }
 }

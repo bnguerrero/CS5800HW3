@@ -7,6 +7,7 @@ public class Burger implements FoodItem
     @Override
     public double cost() 
     {
+        System.out.println("Burger: $" + basePrice);
         return basePrice; 
     }
     

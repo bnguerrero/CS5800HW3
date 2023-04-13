@@ -11,6 +11,7 @@ public class Onion extends FoodDecorator
     
     public double cost()
     {
+        System.out.println("extra onions: $" + cost);
         return super.cost() + cost;
     }
 }
